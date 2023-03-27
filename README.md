@@ -44,3 +44,15 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+
+///
+useState
+O useState é um hook do React, que é utilizado para gerenciar o estado de um componente. O estado é uma forma de armazenar dados em um componente, que podem ser atualizados ao longo do tempo, geralmente em resposta a eventos ou interações do usuário.
+
+O hook useState permite que você adicione estado a um componente funcional, sem a necessidade de transformá-lo em um componente de classe. Ele retorna um par de valores: o primeiro é o valor atual do estado e o segundo é uma função para atualizar o estado.
+
+Por exemplo, se você estiver criando um componente de contador em React, pode usar o useState para armazenar o valor atual do contador e, em seguida, atualizá-lo sempre que o usuário clicar em um botão. O useState é útil porque permite que você atualize o estado de um componente sem precisar criar uma nova instância dele.
+
+Em resumo, o useState é utilizado para armazenar e atualizar o estado de um componente em React. Ele é uma das ferramentas fundamentais para criar componentes interativos e responsivos em aplicações React.
